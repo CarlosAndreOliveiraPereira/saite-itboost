@@ -1,25 +1,39 @@
 body {
   font-family: 'PT Serif', serif;
-  background-color: #f8f9fa;
-}
-
-#titulo {
-  background-color: #343a40;
+  background-color: #121212;
   color: #ffffff;
 }
 
+#titulo {
+  background-color: #1f1f1f;
+  border-bottom: 1px solid #333;
+}
+
 .text-highlight {
-  color: #ffc107;
+  color: #00bcd4;
 }
 
 #features, #comandos, #suporte {
-  background-color: #ffffff;
+  background-color: #1f1f1f;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  border-top: 1px solid #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+p, .lead {
+  color: #cccccc;
+}
+
+.text-muted {
+  color: #999999 !important;
 }
 
 .icon-square {
-  background-color: #0d6efd;
+  background-color: transparent;
   border-radius: .75rem;
   padding: 1rem;
   display: inline-flex;
@@ -28,19 +42,19 @@ body {
 }
 
 .icon-square svg {
-  fill: #ffffff;
+  fill: #00bcd4;
 }
 
 .lista-c {
-  border: 1px solid #dee2e6;
+  border: 1px solid #333;
   border-radius: 15px;
   padding: 25px;
-  background-color: #f8f9fa;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #2a2a2a;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 }
 
 .btn-primary {
-  background-color: #5865F2; /* Discord color */
+  background-color: #5865F2;
   border-color: #5865F2;
 }
 
@@ -50,7 +64,7 @@ body {
 }
 
 .btn-secondary {
-  background-color: #0088cc; /* Telegram color */
+  background-color: #0088cc;
   border-color: #0088cc;
 }
 
@@ -59,10 +73,20 @@ body {
   border-color: #0077b3;
 }
 
+.btn-outline-info {
+  color: #00bcd4;
+  border-color: #00bcd4;
+}
+
+.btn-outline-info:hover {
+  background-color: #00bcd4;
+  color: #121212;
+}
 
 #footer {
-  background-color: #343a40;
+  background-color: #1f1f1f;
   color: #ffffff;
+  border-top: 1px solid #333;
 }
 
 .nav-link {
@@ -70,5 +94,5 @@ body {
 }
 
 .nav-link:hover {
-  color: #ffc107;
+  color: #00bcd4;
 }
