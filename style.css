@@ -1,35 +1,41 @@
 body {
   font-family: 'PT Serif', serif;
-  background-color: #121212;
-  color: #ffffff;
+  background-color: #5c94b1;
+  color: #ebae55;
 }
 
 #titulo {
-  background-color: #1f1f1f;
+  background-color: #5c94b1;
   border-bottom: 1px solid #333;
 }
 
+#titulo .container {
+  background-color: #395065;
+  border-radius: 15px;
+  padding: 2rem;
+}
+
 .text-highlight {
-  color: #00bcd4;
+  color: #c3c8cd;
 }
 
 #features, #comandos, #suporte {
-  background-color: #1f1f1f;
+  background-color: #395065;
   padding-top: 4rem;
   padding-bottom: 4rem;
   border-top: 1px solid #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #ffffff;
+  color: #ebae55;
 }
 
 p, .lead {
-  color: #cccccc;
+  color: #ebae55;
 }
 
 .text-muted {
-  color: #999999 !important;
+  color: #ebae55 !important;
 }
 
 .icon-square {
@@ -42,57 +48,61 @@ p, .lead {
 }
 
 .icon-square svg {
-  fill: #00bcd4;
+  fill: #c3c8cd;
 }
 
 .lista-c {
   border: 1px solid #333;
   border-radius: 15px;
   padding: 25px;
-  background-color: #2a2a2a;
+  background-color: #395065;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 }
 
 .btn-primary {
-  background-color: #5865F2;
-  border-color: #5865F2;
+  background-color: #c3c8cd;
+  border-color: #c3c8cd;
+  color: #395065;
 }
 
 .btn-primary:hover {
-  background-color: #4a55d3;
-  border-color: #4a55d3;
+  background-color: #ebae55;
+  border-color: #ebae55;
+  color: #395065;
 }
 
 .btn-secondary {
-  background-color: #0088cc;
-  border-color: #0088cc;
+  background-color: #c3c8cd;
+  border-color: #c3c8cd;
+  color: #395065;
 }
 
 .btn-secondary:hover {
-  background-color: #0077b3;
-  border-color: #0077b3;
+  background-color: #ebae55;
+  border-color: #ebae55;
+  color: #395065;
 }
 
 .btn-outline-info {
-  color: #00bcd4;
-  border-color: #00bcd4;
+  color: #c3c8cd;
+  border-color: #c3c8cd;
 }
 
 .btn-outline-info:hover {
-  background-color: #00bcd4;
-  color: #121212;
+  background-color: #c3c8cd;
+  color: #395065;
 }
 
 #footer {
-  background-color: #1f1f1f;
-  color: #ffffff;
+  background-color: #395065;
+  color: #ebae55;
   border-top: 1px solid #333;
 }
 
 .nav-link {
-  color: #ffffff;
+  color: #ebae55;
 }
 
 .nav-link:hover {
-  color: #00bcd4;
+  color: #c3c8cd;
 }
