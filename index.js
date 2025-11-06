@@ -1,9 +1,24 @@
-function mudarb() {
-  document.getElementById("link").style.setProperty("color", "#000", "important")
-  document.querySelector("#link span").style.setProperty("color", "blueviolet", "important")
-}
+// Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
 
-function mudarw() {
-  document.getElementById("link").style.color = "#fff"
-  document.getElementById("spanText").style.color =""
-}
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+
+// Scroll reveal effect
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    } else {
+      entry.target.classList.remove('show');
+    }
+  });
+});
+
+const hiddenElements = document.querySelectorAll('.features, .commands, .support');
+hiddenElements.forEach((el) => observer.observe(el));
